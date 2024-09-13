@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Ecommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo.png" alt="Logo">
+        <h1>Pagina Oficial de Boca Juniors</h1>
+    </header>
+
+    <main>
+        <section id="productList">
+            <!-- Lista de productos se insertará aquí -->
+        </section>
+
+        <section id="cart">
+            <h2>Carrito</h2>
+            <ul id="cartItems">
+                <!-- Artículos del carrito se insertarán aquí -->
+            </ul>
+            <p>Total: $<span id="cartTotal">0</span></p>
+            <button id="emptyCartBtn">Vaciar carrito</button>
+            <button id="checkoutBtn">Comprar</button>
+        </section>
+
+        <section id="checkoutForm" style="display: none;">
+            <h2>Datos de Envío y Pago</h2>
+            <form id="formCheckout">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" value="Juan Pérez" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="juan.perez@example.com" required><br>
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" name="address" value="Calle Falsa 123" required><br>
+                <label for="payment">Método de Pago:</label>
+                <select id="payment" name="payment">
+                    <option value="creditCard">Tarjeta de Crédito</option>
+                    <option value="paypal">PayPal</option>
+                </select><br>
+                <div id="paymentDetails" style="display: none;">
+                    <label for="cardNumber">Número de Tarjeta:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="1234-5678-9012-3456"><br>
+                    <label for="cardExpiry">Fecha de Expiración:</label>
+                    <input type="text" id="cardExpiry" name="cardExpiry" placeholder="MM/AA"><br>
+                    <label for="cardCVV">CVV:</label>
+                    <input type="text" id="cardCVV" name="cardCVV" placeholder="123"><br>
+                </div>
+                <button type="submit">Finalizar Compra</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Producto A",
+        "price": 30000,
+        "image": "assets/images/productA.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Producto B",
+        "price": 45000,
+        "image": "assets/images/productB.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Producto C",
+        "price": 20000,
+        "image": "assets/images/productC.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Producto D",
+        "price": 120000,
+        "image": "assets/images/productD.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Producto E",
+        "price": 70000,
+        "image": "assets/images/productE.jpg"
+    }
+]
