@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "name": "Producto A",
+        "name": "Buzo 2024",
         "price": 30000,
         "image": "assets/images/productA.jpg"
     },
     {
         "id": 2,
-        "name": "Producto B",
+        "name": "Camiseta Jugador 2024",
         "price": 45000,
         "image": "assets/images/productB.jpg"
     },
     {
         "id": 3,
-        "name": "Producto C",
+        "name": "Campera Entrenamiento 2024",
         "price": 20000,
         "image": "assets/images/productC.jpg"
     },
     {
         "id": 4,
-        "name": "Producto D",
+        "name": "Camperon 2024",
         "price": 120000,
         "image": "assets/images/productD.jpg"
     },
     {
         "id": 5,
-        "name": "Producto E",
+        "name": "Buzo medio cierre 2024",
         "price": 70000,
         "image": "assets/images/productE.jpg"
     }
